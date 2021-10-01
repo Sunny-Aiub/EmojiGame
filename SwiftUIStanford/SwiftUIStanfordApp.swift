@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct SwiftUIStanfordApp: App {
+    
+    var gameViewModel = EmojiMemoryGame()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainContentView(gameViewModel: gameViewModel)
         }
     }
 }
