@@ -1,0 +1,6 @@
+framework module Pods_SwiftUIStanford {
+  umbrella header "Pods-SwiftUIStanford-umbrella.h"
+
+  export *
+  module * { export * }
+}
